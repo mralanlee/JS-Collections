@@ -1,0 +1,14 @@
+{
+  "name": "JS-Collections",
+  "version": "0.0.1",
+  "description": "A collection of JS snippets that I've accrued over time",
+  "main": "index.js",
+  "repository": "https://github.com/mralanlee/JS-Collections",
+  "author": "alan <alanleunglee@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  }
+}

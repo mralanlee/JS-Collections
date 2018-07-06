@@ -1,8 +1,8 @@
 /**
  * 
  */
-const successOrFail = (collection) => {
-  const [success, failure] = collection.reduce(([s, f], curr) => curr.success ? [[...s, curr.id], f] : [s, [...f, curr.id]], [[], []]);
+const successOrFail = (collection, eval, select) => {
+  const [success, failure] = collection.reduce(([s, f], curr) => curr[eval] ? [[...s, curr[select]], f] : [s, [...f, curr[select]]], [[], []]);
 
   return {
     success,
